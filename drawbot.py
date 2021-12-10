@@ -1,7 +1,9 @@
-import time
+import time, os
 import pyautogui as pya
 
-time.sleep(5)
+os.system("mspaint.exe")
+
+time.sleep(0.9)
 
 distance = 200
 
